@@ -1,0 +1,52 @@
+{
+  "name": "@scraping.house/ssgenerator",
+  "version": "1.0.0",
+  "description": "A toolkit to take screenshots.",
+  "main": "out/index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc -p tsconfig.json",
+    "prestart": "npm run lint --fix && npm run compile",
+    "start": "node out/index.js",
+    "lint": "node_modules/.bin/eslint -c .eslintrc.json --fix src/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Makepad-fr/screenshot.js.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "Playwright",
+    "Automation",
+    "LinkedIn",
+    "Data",
+    "mining",
+    "Web",
+    "scraping",
+    "Web",
+    "automation",
+    "RPA"
+  ],
+  "author": "Makepad Developers <dev@makepad.fr>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Makepad-fr/screenshot.js/issues"
+  },
+  "homepage": "https://github.com/Makepad-fr/screenshot.js#readme",
+  "dependencies": {
+    "playwright": "^1.16.1",
+    "playwright-core": "^1.16.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "typescript": "^4.4.4"
+  }
+}
