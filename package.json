@@ -6,7 +6,6 @@
   "scripts": {
     "compile": "./node_modules/.bin/tsc -p tsconfig.json",
     "prestart": "npm run lint --fix && npm run compile",
-    "start": "node out/index.js",
     "lint": "node_modules/.bin/eslint -c .eslintrc.json --fix src/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,11 +18,7 @@
     "JavaScript",
     "Playwright",
     "Automation",
-    "LinkedIn",
-    "Data",
-    "mining",
-    "Web",
-    "scraping",
+    "Screenshot",
     "Web",
     "automation",
     "RPA"
@@ -35,7 +30,6 @@
   },
   "homepage": "https://github.com/Makepad-fr/screenshot.js#readme",
   "dependencies": {
-    "playwright": "^1.16.1",
     "playwright-core": "^1.16.1"
   },
   "devDependencies": {
